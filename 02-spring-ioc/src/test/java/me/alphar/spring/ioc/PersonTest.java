@@ -1,5 +1,6 @@
 package me.alphar.spring.ioc;
 
+import me.alphar.spring.createbean._01_constructor.Person;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
@@ -29,7 +30,7 @@ public class PersonTest {
     public void testApplicationContext() {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
         System.out.println("-------------------------------------------");
-        Person p = ctx.getBean("person", Person.class);
-        System.out.println(p);
+//        Person p = ctx.getBean("person", Person.class);
+//        System.out.println(p);
     }
 }

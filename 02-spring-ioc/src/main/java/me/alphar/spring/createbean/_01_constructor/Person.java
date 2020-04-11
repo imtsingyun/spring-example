@@ -1,4 +1,4 @@
-package me.alphar.spring.ioc;
+package me.alphar.spring.createbean._01_constructor;
 
 public class Person {
 

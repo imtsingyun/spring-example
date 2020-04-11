@@ -4,6 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="person" name="别名, 没啥用" class="me.alphar.spring.ioc.Person"/>
+    <bean id="person" name="别名, 没啥用" class="me.alphar.spring.createbean._01_constructor.Person"/>
 
+    <bean id="cat1" class="me.alphar.spring.createbean._01_constructor.Cat1"/>
 </beans>
