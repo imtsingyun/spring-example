@@ -33,4 +33,9 @@ public class PersonTest {
 //        Person p = ctx.getBean("person", Person.class);
 //        System.out.println(p);
     }
+
+    @Test
+    public void testCar() {
+
+    }
 }

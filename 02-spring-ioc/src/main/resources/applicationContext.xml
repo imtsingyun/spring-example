@@ -7,4 +7,16 @@
     <bean id="person" name="别名, 没啥用" class="me.alphar.spring.createbean._01_constructor.Person"/>
 
     <bean id="cat1" class="me.alphar.spring.createbean._01_constructor.Cat1"/>
+
+    <bean id="car" class="me.alphar.spring.ioc.Car">
+        <property name="brand">
+            <value>Audi</value>
+        </property>
+        <property name="maxSpeed">
+            <value>300</value>
+        </property>
+        <property name="price">
+            <value>20000.00</value>
+        </property>
+    </bean>
 </beans>
