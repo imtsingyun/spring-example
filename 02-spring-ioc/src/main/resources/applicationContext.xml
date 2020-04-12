@@ -19,4 +19,15 @@
             <value>20000.00</value>
         </property>
     </bean>
+
+    <bean id="dog" class="me.alphar.spring.autowired.Dog">
+        <property name="name">
+            <value>XiaoHei</value>
+        </property>
+    </bean>
+    <bean id="cat" class="me.alphar.spring.autowired.Cat">
+        <property name="name">
+            <value>Cate</value>
+        </property>
+    </bean>
 </beans>
