@@ -2,6 +2,7 @@ package me.alphar.spring.ioc;
 
 import me.alphar.spring.beanEditor.Boss;
 import me.alphar.spring.createbean._01_constructor.Person;
+import me.alphar.spring.event.MailSender;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
@@ -41,5 +42,13 @@ public class PersonTest {
 
         Boss boss = ctx.getBean("boss", Boss.class);
         System.out.println(boss);
+    }
+
+
+    @Test
+    public void testSendMail() {
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+        MailSender mailSender = ctx.getBean("mailSender", MailSender.class);
+        mailSender.sendMail("aaa@gmail.com");
     }
 }

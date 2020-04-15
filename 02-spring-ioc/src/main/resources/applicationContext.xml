@@ -36,4 +36,8 @@
             <value>Cate</value>
         </property>
     </bean>
+
+
+    <bean class="me.alphar.spring.event.MailSendListener"/>
+    <bean id="mailSender" class="me.alphar.spring.event.MailSender"/>
 </beans>
