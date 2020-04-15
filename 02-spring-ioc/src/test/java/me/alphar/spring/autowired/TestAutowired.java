@@ -17,6 +17,7 @@ public class TestAutowired {
 
     @Test
     public void test() {
+        animalList.get(0).hashCode();
         System.out.println(animalList);
     }
 }

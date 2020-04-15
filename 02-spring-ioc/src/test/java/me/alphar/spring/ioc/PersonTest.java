@@ -1,5 +1,6 @@
 package me.alphar.spring.ioc;
 
+import me.alphar.spring.beanEditor.Boss;
 import me.alphar.spring.createbean._01_constructor.Person;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.BeanFactory;
@@ -36,6 +37,9 @@ public class PersonTest {
 
     @Test
     public void testCar() {
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 
+        Boss boss = ctx.getBean("boss", Boss.class);
+        System.out.println(boss);
     }
 }
