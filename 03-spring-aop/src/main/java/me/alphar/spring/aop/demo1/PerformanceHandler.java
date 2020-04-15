@@ -1,4 +1,4 @@
-package me.alphar.spring.aop;
+package me.alphar.spring.aop.demo1;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

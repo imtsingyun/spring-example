@@ -1,4 +1,4 @@
-package me.alphar.spring.aop;
+package me.alphar.spring.aop.demo1;
 
 public class MethodPerformance {
 

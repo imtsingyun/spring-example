@@ -1,5 +1,8 @@
 package me.alphar.spring.aop;
 
+import me.alphar.spring.aop.demo1.ForumService;
+import me.alphar.spring.aop.demo1.ForumServiceImpl;
+import me.alphar.spring.aop.demo1.PerformanceHandler;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Proxy;
